@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100&display=swap');
+
+.conatainer {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+}
+
+.inner-container {
+  justify-content: space-around;
+  display: flex;
+  align-items: center;
+}
+
+.heading {
+  font-family: 'Heebo', sans-serif;
+  margin: 10px;
+  text-align: center;
+}
+
+.headding-text {
+  font-family: 'Heebo', sans-serif;
+  color: white;
+}
+
+.card {
+  width: 250px;
+  height: 250px;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid none;
+  border-radius: 5px;
+  background: linear-gradient(45deg, rgb(106, 120, 209), rgb(0, 164, 189));
+  z-index: 100;
+}
+
+.btn-submit {
+  border: none;
+  padding: 5px 15px;
+  border-radius: 5px;
+  font-family: 'Heebo', sans-serif;
+  font-size: 12px;
+  text-align: center;
+  font-weight: 700;
+}
